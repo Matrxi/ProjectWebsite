@@ -1,0 +1,38 @@
+body#bodyId{
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+img#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a#logoLink{
+  position: relative;
+  float: right;
+}
+
+ul#links,li{
+  display: inline;
+  list-style-type: none;
+  font-size: 120%;
+  font-family: sans-serif;
+  letter-spacing: .1em;
+  word-spacing: normal;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 120%;
+  box-decoration-break: slice;
+}
+a:visited{
+  color: white;
+}
